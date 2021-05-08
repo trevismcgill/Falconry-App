@@ -7,6 +7,11 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
+				<Router>
+					<Switch>
+						<Route exact path="/" component={Home} />
+					</Switch>
+				</Router>
 				<header className="App-header">
 					<p>Testing for Functionality</p>
 					<p>
